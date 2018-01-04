@@ -1,0 +1,22 @@
+h1 {
+  color: orange;
+  text-align: center;
+}
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+img {
+  img-align: center;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: yellow;
+        color: black;
+    }
